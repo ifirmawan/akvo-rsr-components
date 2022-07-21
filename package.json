@@ -1,0 +1,53 @@
+{
+  "name": "@ifirmawan/akvo-rsr-components",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ifirmawan"
+  },
+  "version": "1.0.0",
+  "description": "RSR Design system",
+  "scripts": {
+    "test": "jest",
+    "rollup": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ifirmawan/akvo-rsr-components.git"
+  },
+  "keywords": [
+    "akvo",
+    "rsr",
+    "reactjs",
+    "components"
+  ],
+  "author": "Iwan Firmawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifirmawan/akvo-rsr-components/issues"
+  },
+  "homepage": "https://github.com/ifirmawan/akvo-rsr-components#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.15",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rollup": "^2.77.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^10.3.1",
+    "@emotion/styled": "^10.3.0",
+    "@fontsource/assistant": "^4.5.9",
+    "@fontsource/roboto-condensed": "^4.5.8",
+    "emotion-theming": "^10.3.0"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
